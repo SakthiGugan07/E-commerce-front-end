@@ -21,14 +21,15 @@ body {
 }
 
 .phone-picture {
-  height: 540px;
-  width: 750px;
+  height: 500px;
+  width: 400px;
   object-fit: contain;
 }
 
 .phone-container {
   background-color: white;
-  width: 750px;
+  width: 500px;
+  /* height: 00px; */
   border-radius: 12px;
   overflow: hidden;
   box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
@@ -107,4 +108,9 @@ body {
   max-width: 1000px;
   margin:0 auto;
   justify-content: center;
+}
+
+.phone-btn{
+  font-size: 24px;
+  margin-bottom: 24px;
 }

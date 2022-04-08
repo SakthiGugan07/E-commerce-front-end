@@ -5,13 +5,16 @@ import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import Badge from '@mui/material/Badge';
 import {useNavigate,Route,Routes,Navigate} from "react-router-dom";
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
+import Payment from './Payment';
 
-// const API = 'https://e-commerce46.herokuapp.com'
-const API = 'http://localhost:5000'
+
+const API = 'https://e-commerce46.herokuapp.com'
+// const API = "http://localhost:5000/mobiles"
 
 const cartCtx = createContext();
 
@@ -72,10 +75,10 @@ return (
       <Phone key={mobile._id} mobile={mobile} /> )} />
 
       <Route exact path='/cart' element={<Cart />} />
-       </Routes>
-      {/* {mobiles.map(mobile =>
-      <Phone key={mobile._id} mobile={mobile} /> )} */}
-     
+       
+      <Route exact path='/payment' element={<Payment cart={cart} setCart={setCart}/>} />
+      </Routes>
+      
       </cartCtx.Provider>
     </div>
   );
@@ -116,7 +119,8 @@ function Cart(){
       .then(data => data.json())
       .then((latestCart) => setCart(latestCart))
       .then(() => setOpen(true))
-      .then(() => setTimeout(() => navigate('/'),1000));
+      // .then(() => navigate('/payment'))
+      .then(() => setTimeout(() => navigate('/payment'),1000));
     }
 
   const total = cart
@@ -127,7 +131,7 @@ function Cart(){
       <h1>Purchase Items</h1>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
   <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
-    This is a success message!
+    Your order was dispatched successfully!
   </Alert>
 </Snackbar>
     <div className="cart-list-container">
@@ -137,7 +141,12 @@ function Cart(){
     </div>
     <div className='cart-checkout'>
     <h2 className='cart-checkout-price'>{currencyFormatter(total)}</h2>
-      <button onClick={() => checkoutCart()}>Checkout</button>
+      <Button variant="contained" size="large" color="inherit" onClick={() => checkoutCart()}>
+      <IconButton color="inherit" aria-label="add to shopping cart">
+      <AddShoppingCartIcon />
+       </IconButton>
+         Checkout</Button>
+      
     </div>
     </section>
   )
@@ -169,11 +178,15 @@ function CartItem({mobile}){
       <h2 className="phone-name">{mobile.model}</h2>
       <p className="phone-company">{mobile.company}</p>
       <h2 className="phone-price">{currencyFormatter(mobile.price)}</h2>
-      <button
+      <Button variant="contained" size="large" color="warning" style={{marginBottom : '24px',width:200,height:40}}
       onClick={() => updateCart({mobile,action:'increment'})}
-      >Add to cart</button>
+      ><IconButton color='inherit'><ShoppingCartIcon /></IconButton>Add to cart</Button>
     </div>
   )
 }
+
+
+
+
 
 export default App;

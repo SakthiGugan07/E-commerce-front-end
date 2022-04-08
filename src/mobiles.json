@@ -1,0 +1,50 @@
+[
+    {
+        "model": "OnePlus 10 Pro",
+        "img": "https://m.media-amazon.com/images/I/61mIUCd-37L._SX679_.jpg",
+        "company": "Oneplus",
+        "price": 66999
+    },
+    {
+        "model": "Samsung Galaxy A53 5G",
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/in/2202/gallery/in-galaxy-a53-5g-a536-416923-sm-a536elbgins-531436247?$684_547_PNG$",
+        "company": "Samsung",
+        "price": 34499
+    },
+    {
+        "model": "POCO X4 Pro",
+        "img": "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/w/0/6/-original-imagcv2dcyjzcmvd.jpeg?q=70",
+        "company": "Samsung",
+        "price": 18999
+    },
+    {
+        "model": "Apple iPhone 13 Pro",
+        "img": "https://m.media-amazon.com/images/I/61rrisp8qiL._SX679_.jpg",
+        "company": "Apple",
+        "price": 119900
+    },
+    {
+      "model": "OnePlus 9 5G",
+      "img": "https://m.media-amazon.com/images/I/61fy+u9uqPL._SX679_.jpg",
+      "company": "Oneplus",
+      "price": 40599
+    },
+    {
+      "model": "Iphone 13 mini",
+      "img": "https://m.media-amazon.com/images/I/61Ykx7fl5FL._SX679_.jpg",
+      "company": "Apple",
+      "price": 69990
+    },
+    {
+      "model": "Samsung s21 ultra",
+      "img": "https://m.media-amazon.com/images/I/81kfA-GtWwL._SY606_.jpg",
+      "company": "Samsung",
+      "price": 105899
+    },
+    {
+      "model": "xiomi mi 11",
+      "img": "https://m.media-amazon.com/images/I/51K4vNxMAhS._AC_SX522_.jpg",
+      "company": "xiomi",
+      "price": 65790
+    }
+  ]
