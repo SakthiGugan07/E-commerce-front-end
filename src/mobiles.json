@@ -1,50 +1,92 @@
 [
-    {
-        "model": "OnePlus 10 Pro",
-        "img": "https://m.media-amazon.com/images/I/61mIUCd-37L._SX679_.jpg",
-        "company": "Oneplus",
-        "price": 66999
-    },
-    {
-        "model": "Samsung Galaxy A53 5G",
-        "img": "https://images.samsung.com/is/image/samsung/p6pim/in/2202/gallery/in-galaxy-a53-5g-a536-416923-sm-a536elbgins-531436247?$684_547_PNG$",
-        "company": "Samsung",
-        "price": 34499
-    },
-    {
-        "model": "POCO X4 Pro",
-        "img": "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/w/0/6/-original-imagcv2dcyjzcmvd.jpeg?q=70",
-        "company": "Samsung",
-        "price": 18999
-    },
-    {
-        "model": "Apple iPhone 13 Pro",
-        "img": "https://m.media-amazon.com/images/I/61rrisp8qiL._SX679_.jpg",
-        "company": "Apple",
-        "price": 119900
-    },
-    {
-      "model": "OnePlus 9 5G",
-      "img": "https://m.media-amazon.com/images/I/61fy+u9uqPL._SX679_.jpg",
-      "company": "Oneplus",
-      "price": 40599
-    },
-    {
-      "model": "Iphone 13 mini",
-      "img": "https://m.media-amazon.com/images/I/61Ykx7fl5FL._SX679_.jpg",
-      "company": "Apple",
-      "price": 69990
-    },
-    {
-      "model": "Samsung s21 ultra",
-      "img": "https://m.media-amazon.com/images/I/81kfA-GtWwL._SY606_.jpg",
-      "company": "Samsung",
-      "price": 105899
-    },
-    {
-      "model": "xiomi mi 11",
-      "img": "https://m.media-amazon.com/images/I/51K4vNxMAhS._AC_SX522_.jpg",
-      "company": "xiomi",
-      "price": 65790
-    }
-  ]
+  {
+    "id": "624fdc1b70083519da789f6b",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.",
+    "coverImage": "https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg",
+    "price": 50,
+    "created_at": "2024-08-12T14:56:50.000Z",
+    "updated_at": "2024-08-12T14:56:50.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "description": "Twilight is a series of four vampire-themed fantasy romance novels by American author Stephenie Meyer. Released annually from 2005 through 2008, the four books chart the later teen years of Isabella Bella",
+    "coverImage": "https://m.media-amazon.com/images/I/61eoeu1UpRL._UF1000,1000_QL80_.jpg",
+    "price": 150,
+    "created_at": "2024-08-12T15:03:39.000Z",
+    "updated_at": "2024-08-12T15:03:39.000Z"
+  },
+  {
+    "id": 4,
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "description": "The Fault in Our Stars is a novel by John Green. It is his fourth solo novel and sixth novel overall. It was published on January 10, 2012. The title is inspired by Act 1, Scene 2 of Shakespeare's play Julius Caesar, in which the nobleman Cassius says to Brutus: 'The fault, dear Brutus, is not in our stars, / But in ourselves, that we are underlings.'",
+    "coverImage": "https://rukminim2.flixcart.com/image/850/1000/k4d27ww0/book/0/7/8/the-fault-in-our-stars-original-imadwbg3nnsyncnz.jpeg?q=90&crop=false",
+    "price": 260,
+    "created_at": "2024-08-12T15:05:17.000Z",
+    "updated_at": "2024-08-12T15:05:17.000Z"
+  },
+  {
+    "id": 5,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.",
+    "coverImage": "https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg",
+    "price": 50,
+    "created_at": "2024-08-12T14:56:50.000Z",
+    "updated_at": "2024-08-12T14:56:50.000Z"
+  },
+  {
+    "id": 6,
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "description": "Twilight is a series of four vampire-themed fantasy romance novels by American author Stephenie Meyer. Released annually from 2005 through 2008, the four books chart the later teen years of Isabella Bella",
+    "coverImage": "https://m.media-amazon.com/images/I/61eoeu1UpRL._UF1000,1000_QL80_.jpg",
+    "price": 150,
+    "created_at": "2024-08-12T15:03:39.000Z",
+    "updated_at": "2024-08-12T15:03:39.000Z"
+  },
+  {
+    "id": 7,
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "description": "The Fault in Our Stars is a novel by John Green. It is his fourth solo novel and sixth novel overall. It was published on January 10, 2012. The title is inspired by Act 1, Scene 2 of Shakespeare's play Julius Caesar, in which the nobleman Cassius says to Brutus: 'The fault, dear Brutus, is not in our stars, / But in ourselves, that we are underlings.'",
+    "coverImage": "https://rukminim2.flixcart.com/image/850/1000/k4d27ww0/book/0/7/8/the-fault-in-our-stars-original-imadwbg3nnsyncnz.jpeg?q=90&crop=false",
+    "price": 260,
+    "created_at": "2024-08-12T15:05:17.000Z",
+    "updated_at": "2024-08-12T15:05:17.000Z"
+  },
+  {
+    "id": 8,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.",
+    "coverImage": "https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg",
+    "price": 50,
+    "created_at": "2024-08-12T14:56:50.000Z",
+    "updated_at": "2024-08-12T14:56:50.000Z"
+  },
+  {
+    "id": 9,
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "description": "Twilight is a series of four vampire-themed fantasy romance novels by American author Stephenie Meyer. Released annually from 2005 through 2008, the four books chart the later teen years of Isabella Bella",
+    "coverImage": "https://m.media-amazon.com/images/I/61eoeu1UpRL._UF1000,1000_QL80_.jpg",
+    "price": 150,
+    "created_at": "2024-08-12T15:03:39.000Z",
+    "updated_at": "2024-08-12T15:03:39.000Z"
+  },
+  {
+    "id": 10,
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "description": "The Fault in Our Stars is a novel by John Green. It is his fourth solo novel and sixth novel overall. It was published on January 10, 2012. The title is inspired by Act 1, Scene 2 of Shakespeare's play Julius Caesar, in which the nobleman Cassius says to Brutus: 'The fault, dear Brutus, is not in our stars, / But in ourselves, that we are underlings.'",
+    "coverImage": "https://rukminim2.flixcart.com/image/850/1000/k4d27ww0/book/0/7/8/the-fault-in-our-stars-original-imadwbg3nnsyncnz.jpeg?q=90&crop=false",
+    "price": 260,
+    "created_at": "2024-08-12T15:05:17.000Z",
+    "updated_at": "2024-08-12T15:05:17.000Z"
+  }
+]
